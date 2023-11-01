@@ -1,7 +1,7 @@
 #include <iostream>
 #include <thread>
 #include <string>
-#include <Windows.h>
+
 void cout_fuc(std::string str,int time) {
 	for (int i = 0; i < time; ++i) {
 		std::cout << str;
